@@ -6,9 +6,9 @@ create database 'MiniProjet';
 create table client(id int PRIMARY KEY NOT NULL AUTO_INCREMENT,username varchar(30),password varchar(30));
 ~~~~
 # screenshots
-**signup**
+**signup**\
 ![alt text](https://i.imgur.com/HJx9fsT.png)  
-**Login**
+**Login**\
 ![alt text](https://i.imgur.com/KtU09q5.png)  
-**Home page**
+**Home page**\
 ![alt text](https://i.imgur.com/8USBdXo.png)  
