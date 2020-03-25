@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="341.0" prefWidth="596.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="loginapp.LoginController">
+    <children>
+        <Button fx:id="btn" layoutX="148.0" layoutY="240.0" mnemonicParsing="false" onAction="#Login" prefHeight="36.0" prefWidth="302.0" text="Login">
+         
+        </Button>
+        <TextField fx:id="username" layoutX="149.0" layoutY="99.0" prefHeight="36.0" prefWidth="302.0" />
+        <PasswordField fx:id="password" layoutX="148.0" layoutY="183.0" prefHeight="36.0" prefWidth="302.0" />
+        <Label layoutX="148.0" layoutY="76.0" text="USERNAME">
+
+        </Label>
+        <Label layoutX="148.0" layoutY="159.0" text="PASSWORD">
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="89.0" layoutY="8.0" prefHeight="50.0" prefWidth="420.0" text="Mon projet">
+
+        </Label>
+      <Label layoutX="287.0" layoutY="287.0" text="Ou" />
+      <Hyperlink layoutX="223.0" layoutY="304.0" onAction="#signUP" text="Creeer un nouveau compte" />
+    </children>
+</AnchorPane>
